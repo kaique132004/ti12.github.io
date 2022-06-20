@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site Kaique TI12</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/lity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="TopoSocial">
+            <div class="site toporedesocial">
+                <h2>contato@kibeleza.com.br</h2>
+                <!--Contato de E-mail-->
+                <ul>
+                    <li><a href=""><img src="img/face40.png"></a></li>
+                    <li><a href=""><img src="img/Insta40.png"></a></li>
+                    <li><a href=""><img src="img/twitter40.png"></a></li>
+                    <li><a href=""><img src="img/whats40.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="TopoMenu">
+            <div class="site menuLogo">
+                <h1 class="animate__animated animate__bounce"><a href="index.html"><img src="img/logoTopo.png" alt="logo kibeleza"></a></h1>
+                <button class="abrirMenu"></button>
+                <nav class="menu"> 
+                    <button class="fecharMenu"></button>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Serviço</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <img src="img/banner1.png">
+        <img src="img/banner2.png">
+        <img src="img/banner3.png">
+        <img src="img/banner4.png">
+        <img src="img/banner5.png">
+        <img src="img/banner6.png">
+    </section>
+
+    <section class="Sobre site">
+        <h2>Sobre Kibeleza</h2>
+        <div>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab excepturi molestiae quia, vero, saepe
+                    mollitia nihil architecto optio ipsam a repudiandae? Illo ipsa molestias voluptate placeat aperiam
+                    accusantium ipsum minima!
+                </p>
+            </article>
+            <article>
+                <img src="img/sobre.png" alt="">
+            </article>
+        </div>
+    </section>
+    <section class="Galeria">
+        <img src="img/Galeria1.png" alt="Galeria Kibeleza">
+        <img src="img/Galeria2.png" alt="Galeria Kibeleza">
+        <img src="img/Galeria3.png" alt="Galeria Kibeleza">
+        <img src="img/Galeria4.png" alt="Galeria Kibeleza">
+        <img src="img/Galeria5.png" alt="Galeria Kibeleza">
+        <img src="img/Galeria6.png" alt="Galeria Kibeleza">
+    </section>
+    <section class="space">
+
+    </section>
+    <section class="servicos">
+        <h2>Serviços</h2>
+        
+        <div>
+            <article>
+                <img src="img/Servico1.png" alt="Serviços Kibeleza">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, excepturi quasi aspernatur
+                   similique enim eum quibusdam assumenda magnam vitae asperiores dolorem.
+                </p>
+            </article>
+            <article>
+                    <img src="img/Servico2.png" alt="Serviços Kibeleza">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, excepturi quasi aspernatur
+                       similique enim eum quibusdam assumenda magnam vitae asperiores dolorem.
+                    </p>
+            </article>
+            <article>
+                    <img src="img/Servico3.png" alt="Serviços Kibeleza">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, excepturi quasi aspernatur
+                       similique enim eum quibusdam assumenda magnam vitae asperiores dolorem.
+                    </p>
+            </article>
+            <article>
+                    <img src="img/Servico4.png" alt="Serviços Kibeleza">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, excepturi quasi aspernatur
+                       similique enim eum quibusdam assumenda magnam vitae asperiores dolorem.
+                    </p>
+                    <a href="#">Leia Mais</a>
+            </article>
+        </div>
+    </section>
+    <section class="destaque">
+        <article>
+            <a href="//www.youtube.com/watch?v=XSGBVzeBUbk" data-lity>
+            <img src="img/Play.png"></a>
+        </article>
+    </section>
+    <section class="equipe">
+            <h2>Equipe</h2>
+            <div>
+                <article>
+                    <img src="img/Equipe.png">
+                    <p>Nome</p>
+                    <p>Cargo</p>
+                </article>
+                <article>
+                    <img src="img/equipe2.png">
+                    <p>Nome</p>
+                    <p>Cargo</p>
+                </article>
+                <article>
+                    <img src="img/equipe3.png">
+                    <p>Nome</p>
+                    <p>Cargo</p>
+                </article>
+                <article>
+                    <img src="img/equipe4.png">
+                    <p>Nome</p>
+                    <p>Cargo</p>
+                </article>
+            </div>
+    </section>
+    <footer class="rodape">
+        <div class="site">
+            <a href="index.html">
+                    <img src="img/logoTopo.png" alt="logo kibeleza">
+            </a>
+                    <ul>
+                        <li><a href="#"><img src="img/face200.png" alt="Facebook"></a></li>
+                         <li><a href="#"><img src="img/Twitter80.png" alt="Twitter"></a></li>
+                        <li><a href="#"><img src="img/insta80.png" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="img/whats40.png" alt="Whatts"></a></li>
+                     </ul>
+                <h2> contato@kibeleza.com.br</h2>
+                <h2>(11) 954-892-369</h2>
+        </div>
+    </footer>
+        <div class="direitos">
+                <h2>Todos os direitos Reservados-TI12 Senac Sao Miguel Paulista </h2>
+        </div>            
+
+    <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    <script type="text/javascript" src="js/animate.js"></script>
+    <script type="text/javascript" src="js/lity.js"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>
