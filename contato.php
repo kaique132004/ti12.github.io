@@ -22,20 +22,20 @@
             $phpmail->SMTPDebug = 0; // Opções de debug ( 0, 1 ou 2)
             $phpmail->Debugoutput = 'html';
             
-            $phpmail->Host = "smtppro.zoho.com"; // SMTP servers         smtp.gmail.com
+            $phpmail->Host = "smtp.office365.com"; // SMTP servers         smtp.gmail.com
             $phpmail->Port = 587; // Porta SMTP do GMAIL
             
             $phpmail->SMTPSecure = 'tls'; // Autenticação SMTP
             $phpmail->SMTPAuth = true; // Caso o servidor SMTP precise de autenticação   
             
-            $phpmail->Username = "******************e"; // SMTP username         
-            $phpmail->Password = "***********"; // SMTP password
+            $phpmail->Username = "kgbz.c@outlook.com"; // SMTP username         
+            $phpmail->Password = "@kgb2022"; // SMTP password
             
             $phpmail->IsHTML(true);         
             
             $phpmail->setFrom($email, $nome); // E-mail do remetende enviado pelo method post  
                     
-            $phpmail->addAddress("************************", $assunto);// E-mail do destinatario/*  
+            $phpmail->addAddress("kgbz.c@outlook.com", $assunto);// E-mail do destinatario/*  
             
             $phpmail->Subject = $assunto; // Assunto do remetende enviado pelo method post
                     
@@ -66,14 +66,14 @@
             $phpmailResposta->SMTPDebug = 0;
             $phpmailResposta->Debugoutput = 'html';
             
-            $phpmailResposta->Host = "smtp.gmail.com";         
+            $phpmailResposta->Host = "smtp.office365.com";         
             $phpmailResposta->Port = 587;
             
             $phpmailResposta->SMTPSecure = 'tls';
             $phpmailResposta->SMTPAuth = true;   
             
-            $phpmailResposta->Username = "******************";         
-            $phpmailResposta->Password = "";          
+            $phpmailResposta->Username = "kgbz.c@outlook.com";         
+            $phpmailResposta->Password = "@kgb2022";          
             $phpmailResposta->IsHTML(true);         
             
             $phpmailResposta->setFrom($email, $nome); // E-mail do remetende enviado pelo method post  

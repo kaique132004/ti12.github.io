@@ -17,7 +17,7 @@
 
     date_default_timezone_set('America/Sao_Paulo');
     $horaReserva    = date('H:i:s', strtotime($dataReserva));
-    $dataReserva    = date('Y/m/d', strtotime($dataReserva));
+    $dataDReserva    = date('Y/m/d', strtotime($dataReserva));
 
     $codFunc       = stripslashes($codFunc);
     $codCliente      = stripslashes($codCliente);
@@ -34,7 +34,7 @@
 
     if($conexao){
         $query = $conexao->prepare("INSERT INTO reserva (obsReserva, dataReserva, horaReserva, statusReserva, idFuncionario, idCliente, idServico) 
-        VALUES ('".$obsReserva."','".$dataReserva."','".$horaReserva."','".$statusReserva."','".$codFunc."','".$codCliente."','".$codServico."')");
+        VALUES ('".$obsReserva."','".$dataDReserva."','".$horaReserva."','".$statusReserva."','".$codFunc."','".$codCliente."','".$codServico."')");
 
         $query->execute();
 
